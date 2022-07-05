@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: all 0.5s;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #222242;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: fit-content;
+}
+
+.wrapper {
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    background-color: #414170
+}
+@media screen and (max-width:500px) {
+    .wrapper{
+        padding: 2rem 3rem;
+    }
+}
+.buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 1rem;
+}
+.text{
+    font-size: 4rem;
+}
+button {
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #222242;
+    padding: 10px 38px;
+    border: 1px solid #A9A9A9;
+    border-radius: 28px;
+    color: #fff;
+    transition: all .2s ease;
+    outline: 0;
+    margin: .5rem
+}
+button:active{
+    background-color: #fff;
+    color: #000;
+}
