@@ -1,4 +1,4 @@
-<p align="center"
+<p align="center">
     <img src="https://telegra.ph/file/3447671d88b84f167456f.gif">
 </p>
 
